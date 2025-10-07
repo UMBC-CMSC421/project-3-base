@@ -1,7 +1,6 @@
 #include "proj3KernelTemplate.h"
 
-static DEFINE_MUTEX(enqueue_mutex);
-static DEFINE_MUTEX(dequeue_mutex);
+static DEFINE_MUTEX(modification_mutex);
 
 proj_app_ctx_t* application = NULL;
 
