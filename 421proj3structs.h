@@ -29,7 +29,7 @@ typedef struct queue_node_421 {
   struct queue_node_421*  next;
   priority_421_t          priority;
   int                     id;
-  char[DATA_LENGTH]       data;
+  char                    data[DATA_LENGTH];
 } queue_node_421_t;
 
 #endif
